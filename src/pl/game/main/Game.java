@@ -53,8 +53,15 @@ public class Game extends Canvas implements Runnable {
 				frames = 0;
 			}
 		}
+		stop();
 	}
 	
+	private void tick() {
+		
+	}
+	private void render() {
+		
+	}
 
 	public static void main(String args[]) {
 		new Game();
